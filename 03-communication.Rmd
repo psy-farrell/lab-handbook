@@ -16,13 +16,13 @@ So that the lab meetings run efficiently and are enjoyable, there are some expec
 
 2. A corollary to 1. is: give other lab members room to talk, and try not to dominate the conversation.
 
-3. A good heuristic is to follow the [Griceam maxims](link):
+3. A good heuristic is to follow the [Gricean maxims](link):
   a. The maxim of quantity, where one tries to be as informative as one possibly can, and gives as much information as is needed, and no more.
   b. The maxim of quality, where one tries to be truthful, and does not give information that is false or that is not supported by evidence.
   c. The maxim of relation, where one tries to be relevant, and says things that are pertinent to the discussion.
   d. The maxim of manner, when one tries to be as clear, as brief, and as orderly as one can in what one says, and where one avoids obscurity and ambiguity.
 
-What does this mean in practice? Think before speaking, don't dominate the conversation (see 2. above), and make immediately useful suggestions (you can always suggest getting coffee afterwards if you have some more expansive and philosophical points to make)
+What does this mean in practice? Think before speaking, don't dominate the conversation (see 2. above), and make immediately useful suggestions (you can always suggest getting coffee afterwards if you have some more expansive and philosophical points to make).
 
 If you are presenting, some of the discussion might be in the form of feedback. Remember, feedback is not criticism, and should not be taken as such. Indeed, it would be good to get into the practice of asking for feedback, as you can only learn from feedback.
 

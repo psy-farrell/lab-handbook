@@ -1,3 +1,19 @@
 # Values {#values}
 
-Here are the lab values
+This statement makes clear our core beliefs and values in how we conduct our science and ourselves in the lab. In writing this statement we have copied ideas and wording from a number of other sources, including [http://www.mitvalues.org/](http://www.mitvalues.org/).
+
+* We unconditionally reject every form of bigotry, discrimination, hateful rhetoric, and hateful action, whether directed towards one's race, gender, gender identity, sexual orientation, religion, national origin, disability, citizenship, political views, socioeconomic status, or immigration status.
+* We uphold the principles of the scientific method, of fact- and reason-based objective inquiry. 
+* We value openness and transparency, and endorse [Merton's norms of scientific practice](https://en.wikipedia.org/wiki/Mertonian_norms):
+    * Univeralism: "truth-claims, whatever their source, are to be subjected to preestablished impersonal criteria: consonant with observation and with previously confirmed knowledge. The acceptance or rejection of claims entering the lists of science is not to depend on the personal or social aLributes of their protagonist"
+    * Communalism: "The substantive findings of science are a product of social collaboration and are assigned to the community". Individual scientists don't "own" their findings, the scientific community does.
+    * Disinterestedness: Science as a whole should be disinterested (even though individual scientists will not be).
+    * Organized skepticism: "The temporary suspension of judgment and the detached scrutiny of beliefs in terms of empirical and logical criteria"
+
+
+What does all this mean in practice? We don't expect individuals to be perfectly rational and impartial---we are skeptical of those who claim to be. Rather, we aim to set up robust and [reliable](https://psyarxiv.com/gxcy5/) workflows, and engage with others respectfully. Some examples of such mechanisms include:
+* We aim to preregister studies when appropriate, and share all data and analysis scripts
+* We are respectful of other people's gender identity, and use their preferred pronouns.
+* We encourage lab members to ask for and give precise and constructive feedback; we aren't perfect, but being surrounded by other smart, passionate, and supportive people is a great opportunity to learn more about ourselves (or about how others perceive us) and make changes to our habits, working practices and approach to personal interaction.
+
+<!-- UWA has formed a working party on "free speech", and if that leads to some formal policy or statement, we will make clear how this relates to our lab values -->
