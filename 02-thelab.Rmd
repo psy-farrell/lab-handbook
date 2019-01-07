@@ -1,0 +1,39 @@
+# About the lab
+
+## Our research
+
+The lab generally examines how we remember things; how we make decisions; and how we plan. Some examples of the types of questions we address are:
+
+* How do we encode and recall sequential information?
+* How is memory affected by reward, or instructions to prioritise information?
+* How do we sample information from memory to remember, form judgements, and make choices?
+* How can we use evidence accumulation models to understand decision-making?
+* How do we make sequences of inter-related decisions, particularly when pursuing multiple goals?
+* How are our judgements and choices affected by others?
+* How do small groups collate information and make judgements?
+
+## Lab structure
+
+Different people in the lab are at different stages in their research careers. A list of current members, collaborators and alumni can be found [here](link)
+
+### Academics
+
+Simon Farrell is the head of the lab. You will usually be working directly with Simon in carrying out your research.
+
+We are also part of a larger lab group called the Cognitive Science Group. The other academics in this group are Ullrich Ecker and Mark Hurlstone.
+
+### Post-docs
+
+Postdoctoral researchers (or postdocs) are people who have finished their PhD, and are (usually) employed full-time on a research project.
+
+### PhD students
+
+PhD students are carrying out a research project (typically over the course of 3--4 years) that will ultimately lead to a PhD. A PhD typically involves running a number of experiments. Some of our PhD students on a combined programme, meaning that they are completing a research project in parallel with a Masters programme (typically over 4 years).
+
+### Honours students
+
+Honours students work on a small research project (typically 1--2 experiments) over 8--9 months as part of their Honours degree.
+
+### External collaborators
+
+We have a number of external collaborators: researchers from other universities around the world who bring their own views and expertise to projects. Working with others is fun!

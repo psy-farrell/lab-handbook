@@ -1,0 +1,29 @@
+* Values/principles
+* About the lab
+    * Academics
+    * Postdoc
+    * PhD
+    * Honours
+    * External collaborators
+    * Alumni
+    * (A list is here on web page)
+* Lab communication (inc location of minutes) and conflict resolution\
+    * When are lab meetings, and when are they announced
+* Honours students
+    * (includes expectations of supervisor and student)
+* PhD students
+    * (includes expectations of supervisor and student)
+* Designing a study
+* Analysing a study
+* Pregistering studies
+* Running a study
+    * Firebase setup
+    * Prolific setup
+    * Mturk setup
+* Lab Library
+* Project Structure
+* Git and github
+
+* Buddy system?
+* Recommended tools
+* Rmarkdown reports (can view, but can also look at script)

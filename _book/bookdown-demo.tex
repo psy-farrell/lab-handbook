@@ -1,0 +1,395 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={A Minimal Book Example},
+            pdfauthor={Yihui Xie},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{A Minimal Book Example}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Yihui Xie}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \predate{\centering\large\emph}
+  \postdate{\par}
+  \date{2018-11-30}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{prerequisites}{%
+\chapter{Prerequisites}\label{prerequisites}}
+
+This is a \emph{sample} book written in \textbf{Markdown}. You can use
+anything that Pandoc's Markdown supports, e.g., a math equation
+\(a^2 + b^2 = c^2\).
+
+The \textbf{bookdown} package can be installed from CRAN or Github:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
+\CommentTok{# or the development version}
+\CommentTok{# devtools::install_github("rstudio/bookdown")}
+\end{Highlighting}
+\end{Shaded}
+
+Remember each Rmd file contains one and only one chapter, and a chapter
+is defined by the first-level heading \texttt{\#}.
+
+To compile this example to PDF, you need XeLaTeX. You are recommended to
+install TinyTeX (which includes XeLaTeX):
+\url{https://yihui.name/tinytex/}.
+
+\hypertarget{values}{%
+\chapter{Values}\label{values}}
+
+Here are the lab values
+
+\hypertarget{about-the-lab}{%
+\chapter{About the lab}\label{about-the-lab}}
+
+\hypertarget{our-research}{%
+\section{Our research}\label{our-research}}
+
+The lab generally examines how we remember things; how we make
+decisions; and how we plan. Some examples of the types of questions we
+address are:
+
+\begin{itemize}
+\tightlist
+\item
+  How do we encode and recall sequential information?
+\item
+  How is memory affected by reward, or instructions to prioritise
+  information?
+\item
+  How do we sample information from memory to remember, form judgements,
+  and make choices?
+\item
+  How can we use evidence accumulation models to understand
+  decision-making?
+\item
+  How do we make sequences of inter-related decisions, particularly when
+  pursuing multiple goals?
+\item
+  How are our judgements and choices affected by others?
+\item
+  How do small groups collate information and make judgements?
+\end{itemize}
+
+\hypertarget{lab-structure}{%
+\section{Lab structure}\label{lab-structure}}
+
+Different people in the lab are at different stages in their research
+careers. A list of current members, collaborators and alumni can be
+found \href{link}{here}
+
+\hypertarget{academics}{%
+\subsection{Academics}\label{academics}}
+
+Simon Farrell is the head of the lab. You will usually be working
+directly with Simon in carrying out your research.
+
+We are also part of a larger lab group called the Cognitive Science
+Group. The other academics in this group are Ullrich Ecker and Mark
+Hurlstone.
+
+\hypertarget{post-docs}{%
+\subsection{Post-docs}\label{post-docs}}
+
+Postdoctoral researchers (or postdocs) are people who have finished
+their PhD, and are (usually) employed full-time on a research project.
+
+\hypertarget{phd-students}{%
+\subsection{PhD students}\label{phd-students}}
+
+PhD students are carrying out a research project (typically over the
+course of 3--4 years) that will ultimately lead to a PhD. A PhD
+typically involves running a number of experiments. Some of our PhD
+students on a combined programme, meaning that they are completing a
+research project in parallel with a Masters programme (typically over 4
+years).
+
+\hypertarget{honours-students}{%
+\subsection{Honours students}\label{honours-students}}
+
+Honours students work on a small research project (typically 1--2
+experiments) over 8--9 months as part of their Honours degree.
+
+\hypertarget{external-collaborators}{%
+\subsection{External collaborators}\label{external-collaborators}}
+
+We have a number of external collaborators: researchers from other
+universities around the world who bring their own views and expertise to
+projects. Working with others is fun!
+
+\hypertarget{communication}{%
+\chapter{Communication}\label{communication}}
+
+\hypertarget{lab-meetings}{%
+\section{Lab meetings}\label{lab-meetings}}
+
+Lab meetings are a primary means of catching up, setting context,
+sharing results, getting feedback, making decisions, and planning. We
+have lab meetings on average every fortnight, but the exact schedule is
+determined on a week by week basis. \textbf{Attendance at lab meetings
+is expected}; however, we know that it is difficult to organise a time
+that suits everyone, and other factors may affect your ability to attend
+individual meetings.
+
+The main structure of the lab meeting is:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Each lab member gives a brief (1--2 min) update on where they are at.
+  The purpose is to check in and make sure everyone is OK, and identify
+  any road blocks that will need to be addressed outside the meeting.
+\item
+  Any lab members that have results to present do so. Often this will
+  just be a casual presentation, so only a brief outline of background
+  and method is needed, and discussion should focus on the results and
+  their interpretation (the science). However, lab members may also
+  practice a presentation, in which case they may also welcome feedback
+  on the presentation itself.
+\item
+  Sometimes, we will have discussion of lab issues affecting the group
+  (e.g., in the past we have discussed the format of project
+  directories, norms for pre-registation, and the lab logo).
+\end{enumerate}
+
+So that the lab meetings run efficiently and are enjoyable, there are
+some expectations of all members:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Everyone takes part in lab discussion; even if something is not in
+  your area, you should be able to say something about it (or say why
+  you can't say something about it). This is to have you practice giving
+  feedback, and to clarify your own understanding of different areas.
+\item
+  A corollary to 1. is: give other lab members room to talk, and try not
+  to dominate the conversation.
+\item
+  A good heuristic is to follow the \href{link}{Griceam maxims}
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  The maxim of quantity, where one tries to be as informative as one
+  possibly can, and gives as much information as is needed, and no more.
+\item
+  The maxim of quality, where one tries to be truthful, and does not
+  give information that is false or that is not supported by evidence.
+\item
+  The maxim of relation, where one tries to be relevant, and says things
+  that are pertinent to the discussion. The maxim of manner, when one
+  tries to be as clear, as brief, and as orderly as one can in what one
+  says, and where one avoids obscurity and ambiguity.
+\end{enumerate}
+
+What does this mean in practice? Think before speaking, don't dominate
+the conversation (see 2. above), and make immediately useful suggestions
+(you can always suggest getting coffee afterwards if you have some more
+expansive and philosophical points to make)
+
+If you are presenting, some of the discussion might be in the form of
+feedback. Remember, feedback is not criticism, and should not be taken
+as such. Indeed, it would be good to get into the practice of asking for
+feedback, as you can only learn from feedback.
+
+\hypertarget{slack}{%
+\section{Slack}\label{slack}}
+
+We use Slack for chats and conversations. An advantage is that we can
+easily include future collaborators (including future students) and they
+easily have access to history of the project. \emph{Warning}: there are
+no guarantess about the search/archiving facilities of Slack. Slack
+should notnserve as a permanent record of scientific (or other)
+discussion. (Note, though, that we do use it to keep some pinned info).
+Summaries of discussions (especially important for remembering and
+understanding why we made the decisions we did, which we will need to
+justify in papers) should go into google docs/dropbox/whatever.
+
+\hypertarget{email}{%
+\section{Email}\label{email}}
+
+Use email primarily for correspondence of a more formal nature. It's
+much easier to Slack than to email, so please use Slack in first
+instance unless business is of formal nature (e.g., relating to
+enrolment/formal issues), or you are forwarding along some other info.
+
+\hypertarget{google-docs}{%
+\section{Google docs}\label{google-docs}}
+
+You should be using something like google docs or dropbox (or even a
+github wiki) as a record of meetings and decisions made. This is where
+you might also make notes of conversations from Slack (even just cut and
+paste important convos that you can't otherwise incorporate as comments
+on papers or put into effect immediately).
+
+\hypertarget{github-wiki}{%
+\section{Github wiki}\label{github-wiki}}
+
+Once folks are up to scratch with git + GitHub, we will explore using
+issues on GitHub as a way of managing specific tasks. It looks like it
+might be quite unwieldy, but is used by other labs to track things.
+
+\hypertarget{honours-students-1}{%
+\chapter{Honours students}\label{honours-students-1}}
+
+This chapter will be advice specific to Honours students
+
+\hypertarget{phd-students-1}{%
+\chapter{PhD students}\label{phd-students-1}}
+
+This chapter will be advice specific to PhD students
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}

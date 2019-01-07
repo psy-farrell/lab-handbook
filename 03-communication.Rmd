@@ -1,0 +1,43 @@
+# Communication
+
+## Lab meetings
+
+Lab meetings are a primary means of catching up, setting context, sharing results, getting feedback, making decisions, and planning. We have lab meetings on average every fortnight, but the exact schedule is determined on a week by week basis. **Attendance at lab meetings is expected**; however, we know that it is difficult to organise a time that suits everyone, and other factors may affect your ability to attend individual meetings.
+
+The main structure of the lab meeting is:
+
+1. Each lab member gives a brief (1--2 min) update on where they are at. The purpose is to check in and make sure everyone is OK, and identify any road blocks that will need to be addressed outside the meeting.
+2. Any lab members that have results to present do so. Often this will just be a casual presentation, so only a brief outline of background and method is needed, and discussion should focus on the results and their interpretation (the science). However, lab members may also practice a presentation, in which case they may also welcome feedback on the presentation itself.
+3. Sometimes, we will have discussion of lab issues affecting the group (e.g., in the past we have discussed the format of project directories, norms for pre-registation, and the lab logo).
+
+So that the lab meetings run efficiently and are enjoyable, there are some expectations of all members:
+
+1. Everyone takes part in lab discussion; even if something is not in your area, you should be able to say something about it (or say why you can't say something about it). This is to have you practice giving feedback, and to clarify your own understanding of different areas.
+
+2. A corollary to 1. is: give other lab members room to talk, and try not to dominate the conversation.
+
+3. A good heuristic is to follow the [Griceam maxims](link):
+  a. The maxim of quantity, where one tries to be as informative as one possibly can, and gives as much information as is needed, and no more.
+  b. The maxim of quality, where one tries to be truthful, and does not give information that is false or that is not supported by evidence.
+  c. The maxim of relation, where one tries to be relevant, and says things that are pertinent to the discussion.
+  d. The maxim of manner, when one tries to be as clear, as brief, and as orderly as one can in what one says, and where one avoids obscurity and ambiguity.
+
+What does this mean in practice? Think before speaking, don't dominate the conversation (see 2. above), and make immediately useful suggestions (you can always suggest getting coffee afterwards if you have some more expansive and philosophical points to make)
+
+If you are presenting, some of the discussion might be in the form of feedback. Remember, feedback is not criticism, and should not be taken as such. Indeed, it would be good to get into the practice of asking for feedback, as you can only learn from feedback.
+
+## Slack
+
+We use Slack for chats and conversations. An advantage is that we can easily include future collaborators (including future students) and they easily have access to history of the project. *Warning*: there are no guarantess about the search/archiving facilities of Slack. Slack should notnserve as a permanent record of scientific (or other) discussion. (Note, though, that we do use it to keep some pinned info). Summaries of discussions (especially important for remembering and understanding why we made the decisions we did, which we will need to justify in papers) should go into google docs/dropbox/whatever.
+
+## Email
+
+Use email primarily for correspondence of a more formal nature. It's much easier to Slack than to email, so please use Slack in first instance unless business is of formal nature (e.g., relating to enrolment/formal issues), or you are forwarding along some other info.
+
+## Google docs
+
+You should be using something like google docs or dropbox (or even a github wiki) as a record of meetings and decisions made. This is where you might also make notes of conversations from Slack (even just cut and paste important convos that you can't otherwise incorporate as comments on papers or put into effect immediately).
+
+## Github wiki
+
+Once folks are up to scratch with git + GitHub, we will explore using issues on GitHub as a way of managing specific tasks. It looks like it might be quite unwieldy, but is used by other labs to track things.
