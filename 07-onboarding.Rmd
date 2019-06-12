@@ -1,0 +1,26 @@
+# Things to do to get set up
+
+(Some of these will be more relevant to PhD students and postdocs. Some of these will also be more discretionary---use the tools that work best for you, but be open to learning).
+
+Asterisk denotes something more for PhD and postdocs
+
+Rather than trying to do this all at once, do one a day!
+
+## 1. Read this lab handbook!
+
+Well done, you are well on your way!
+
+## 2. Join the lab's Slack workspace
+
+1. Simon will send you an invite; if he doesn't, remind him, as we use Slack for most communication.
+2. Learn about Slack and how it works. You'll also need to work out how to set notifications to your liking, as otherwise you'll potentially be getting many many notifications!
+3. Look through the Slack channels we have, and sign up to the ones you are interested in.
+
+## X. Read about pre-rego etc.
+
+## X. Install R and Rstudio
+
+## X. Install a decent text editor
+
+## X. Install, and learn how to use, git
+
