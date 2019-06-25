@@ -20,7 +20,12 @@ Well done, you are well on your way!
 
 ## X. Install R and Rstudio
 
+<!-- (For PhD students) Include troubleshooting for installing on University laptops. 
+Specifically, Michael Wilson's guide and Opening R with Administrater permissions (Matt can write this) -->
+
 ## X. Install a decent text editor
+
+<!-- For LaTeX, can include Anthony's Slack message on tools to use -->
 
 ## X. Install, and learn how to use, git
 

@@ -28,7 +28,7 @@ If you are presenting, some of the discussion might be in the form of feedback. 
 
 ## Slack
 
-We use Slack for chats and conversations. An advantage is that we can easily include future collaborators (including future students) and they easily have access to history of the project. *Warning*: there are no guarantess about the search/archiving facilities of Slack. Slack should notnserve as a permanent record of scientific (or other) discussion. (Note, though, that we do use it to keep some pinned info). Summaries of discussions (especially important for remembering and understanding why we made the decisions we did, which we will need to justify in papers) should go into google docs/dropbox/whatever.
+We use Slack for chats and conversations. An advantage is that we can easily include future collaborators (including future students) and they easily have access to history of the project. *Warning*: there are no guarantess about the search/archiving facilities of Slack. Slack should not serve as a permanent record of scientific (or other) discussion. (Note, though, that we do use it to keep some pinned info). Summaries of discussions (especially important for remembering and understanding why we made the decisions we did, which we will need to justify in papers) should go into google docs/dropbox/whatever.
 
 ## Email
 
